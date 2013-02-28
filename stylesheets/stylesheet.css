@@ -245,3 +245,8 @@ a {
 .cf {
   zoom:1;
 }
+
+#main_content h1 {
+    text-align: center;
+    padding-top: 30px;
+}
