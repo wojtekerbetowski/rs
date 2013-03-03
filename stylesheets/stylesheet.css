@@ -247,3 +247,9 @@ a {
 .cf {
   zoom:1;
 }
+
+.mentor_photo {
+    float: right;
+    height: 200px;
+    padding: 20px;
+}
