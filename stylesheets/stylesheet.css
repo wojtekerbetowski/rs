@@ -265,3 +265,10 @@ a {
   margin-top: 30px;
 }
 
+#agenda {
+    text-align: center;
+}
+
+#agenda tr td pre {
+    text-align: left;
+}
