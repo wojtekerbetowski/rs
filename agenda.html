@@ -195,22 +195,22 @@
     <h2 id="kata_branches">Branche i tagi</h2>
     <h3>Motywacja</h3>
     <p>
-        TBD
+        Czym są branche? Jak tworzone i reprezentowane są tagi i inne obiekty w GIT? Co czyni go takim wyjątkowym i jak się to ma do pozostałych systemów kontroli wersji.
     </p>
     <h3>Scenariusz</h3>
     <p>
-        TBD
+        Zapoznamy się z obiektami reprezentującymi tagi, branche i commity w GIT. Nauczymy się jak się je tworzy, zarządza, merguje i jak najlepiej stworzyć drzewko w naszym repozytorium.
     </p>
 <hr/>
 
     <h2 id="kata_filter">Git filter-branch</h2>
     <h3>Motywacja</h3>
     <p>
-        TBD
+        Chcesz upublicznić swój projekt z całą historią commitów? Niestety zawiera ona dane, których nie możesz udostępnić, takie jak adresy e-mail albo nieopatrznie zamieszczone hasła. Co wtedy? Wtedy możesz zmienić swoją historię za pomocą git filter-branch.
     </p>
     <h3>Scenariusz</h3>
     <p>
-        TBD
+        Na przykładach zobaczymy w działaniu filtry dostępne w komendzie filter-branch. Za ich pomocą "masowo" przepiszemy historie specjalnie przygotowanych gałęzi.
     </p>
 <hr/>
 
@@ -251,11 +251,11 @@
 <h2 id="kata_merging">Merging vs rebasing</h2>
 <h3>Motywacja</h3>
 <p>
-    TBD
+    Czym różni się merge od rebase? Dlaczego jeden z nich jest lepszy, jak to się ma do historii repozytorium i commitów?
 </p>
 <h3>Scenariusz</h3>
 <p>
-    TBD
+    Dowiemy się jak wygląda repozytorium przed i po mergach, rebaseach. Reprezentację obiektów GITowych oraz wpływ na nasz kod i pojawianie się konfliktów.
 </p>
 <hr/>
 
@@ -308,22 +308,25 @@
 <h2 id="kata_internals">Bebechy gita: katalog .git i jak to działa</h2>
 <h3>Motywacja</h3>
 <p>
-    TBD
+    Początkujący gitowcy często narzekają, że polecenia nie mają sensu, a sam git jest zakręcony jak słoik. Tymczasem bebechy gita są banalnie proste i super skuteczne. To tylko API jest delikatnie mówiąc przekombinowane. Jeśli poznać zawartość katalogu .git i co się w nim dzieje, można dużo lepiej zrozumieć gita i jego API. W sytuacji awaryjnej, pomoże nam to odzyskać dane i lub zrobic to co chcemy, gdy w innej sytuacji musielibyśmy najpierw nauczyć się nowej komendy (potencjalnie niebezpiecznej).
 </p>
 <h3>Scenariusz</h3>
 <p>
-    TBD
+    Przejdziemy przez zawartość katalogu .git i zobaczymy co gdzie leży, jak się uzupełnia, jak modyfikować gita bez używania poleceń (edytorem tekstu) i co z tego wszystkiego wynika (np. jak się przestać bać, robić prosty backup, albo  zrozumieć git reset). Ponadto przedstawione zostaną obiekty w gicie dzięki poznaniu których zrozumiemy dlaczego jest jednym z najlepszych systemów kontroli wersji.
 </p>
 <hr/>
 
 <h2 id="kata_bisect">Git bisect</h2>
 <h3>Motywacja</h3>
 <p>
-    TBD
+    Czasami, nawet pomimo używania continous integration i testów automatycznych,
+    pojawia się w projekcie tajemnicza regresja. Co gorsza, nikt z zespołu nie ma
+    pomysłu, co ją mogło spowodować. Wtedy z pomocą przychodzi nam komenda git
+    bisect.
 </p>
 <h3>Scenariusz</h3>
 <p>
-    TBD
+    Na specjalnie przygotowanych gałęziach zobaczymy jak znaleźć commita, który "popsuł" coś w projekcie. Najpierw regresji będziemy szukać za pomocą testów ręcznych. Potem na gałęzi zawierającej tysiąc commitów znajdziemy problematyczną zmianę wpisując w konsoli tylko jedną komendę.
 </p>
 <hr/>
 
@@ -374,11 +377,11 @@
 <h2 id="kata_interactive_rebase">Git rebase -i</h2>
 <h3>Motywacja</h3>
 <p>
-    TBD
+    Interaktywny rebase w Gicie pozwala na bardzo zwinne operowanie strukturą historii w poukładany i prosty sposób. Kata ma za zadanie pokazać jak posługiwać się instrukcją, jakie mamy możliwości i na co uważać.
 </p>
 <h3>Scenariusz</h3>
 <p>
-    TBD
+    Zaczynamy od przełożenia jednego commita na inny branch. Następnie przekładamy zakres commitów. Później przekładamy brancha. Kolejny etap to zmiana kolejności commitów, usuniecie jednego z nich. Na koniec dowiemy się kiedy i jak robić zamieszanie w historii, a kiedy nie wolno.
 </p>
 <hr/>
 
